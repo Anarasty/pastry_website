@@ -10,4 +10,11 @@ menuBtn.addEventListener("click", (e) => {
         "class",
         isOpen ? "ri-close-line" : "ri-menu-2-line"
     )
-})
+})    
+
+navLinks.addEventListener("click", (e) => {
+    if (e.target.tagName.toLowerCase() === "a") {
+        navLinks.classList.remove("open");
+        menuBtnIcon.setAttribute("class", "ri-menu-2-line");
+    }
+});
