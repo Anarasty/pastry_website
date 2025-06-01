@@ -36,3 +36,16 @@ ScrollReveal().reveal(".header__btns", {
     ...scrollRevealOption,
     delay: 1000,
 })
+
+ScrollReveal().reveal(".about__image img", {
+    ...scrollRevealOption,
+    origin:"right",
+})
+ScrollReveal().reveal(".about__content .section__header", {
+    ...scrollRevealOption,
+    delay: 500,
+})
+ScrollReveal().reveal(".about__content > div", {
+    ...scrollRevealOption,
+    delay: 1000,
+})
