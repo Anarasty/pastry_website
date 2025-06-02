@@ -4,6 +4,9 @@
 
 ![alt text](./img/screenshot1.png)
 
+## Deployment Link
+https://anarasty.github.io/pastry_website/
+
 ### Description
 The main purpose of creating this project was to try a new style of writing CSS media, from smaller to larger screens. + Try using ScrollReveal JS library for better appear animations. The application if fully responsive and adaptive.
 
