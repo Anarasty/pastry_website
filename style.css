@@ -96,7 +96,7 @@ nav {
 }
 
 .nav__logo img {
-    max-width: 100px;
+    max-width: 60px;
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
 }
 
@@ -328,6 +328,55 @@ nav {
     margin-top: 2rem;
 }
 
+footer {
+    background-color: var(--secondary-color);
+}
+
+.footer__container {
+    display: grid;
+    gap: 4rem 2rem;
+}
+
+.footer__logo img{
+    max-width: 100px;
+}
+
+.footer__col h4 {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.footer__links {
+    display: grid;
+    gap: 1rem;
+}
+
+.footer__links a {
+    font-weight: 500;
+    color: var(--extra-light);
+}
+
+.footer__links a:hover {
+    color: var(--primary-color);
+}
+
+.footer__bar {
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.footer__bar a {
+    color: var(--primary-color);
+}
+
+.footer__bar a:hover {
+    color: var(--text-dark);
+}
+
 @media (width > 540px) {
     .menu__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -338,6 +387,10 @@ nav {
     }
 
     .book__container .input__row:not(:last-child) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -411,6 +464,10 @@ nav {
 
     .about__content {
         grid-area: 1/1/2/2;
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
